@@ -91,7 +91,7 @@ async def button(update: Update, context: ContextTypes.DEFAULT_TYPE):
         )
 
 # Run bot
-app = ApplicationBuilder().token("YOUR_BOT_TOKEN").build()
+app = ApplicationBuilder().token("8633654937:AAFrBff2T-ri2OK5Aln7knDGqNVcw_8hsHY").build()
 
 app.add_handler(CommandHandler("start", start))
 app.add_handler(CallbackQueryHandler(button))
